@@ -1,3 +1,3 @@
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_jasmine_sprout.mk
+    $(LOCAL_DIR)/omni_GM9PRO_sprout.mk

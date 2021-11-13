@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := jasmine_sprout
+PRODUCT_RELEASE_NAME := GM9PRO_sprout
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, build/target/product/embedded.mk)
@@ -68,11 +68,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_PLATFORM := SDM660
-PRODUCT_NAME := omni_jasmine_sprout
-PRODUCT_DEVICE := jasmine_sprout
-PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Mi A2
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_NAME := omni_GM9PRO_sprout
+PRODUCT_DEVICE := GM9PRO_sprout
+PRODUCT_BRAND := GM
+PRODUCT_MODEL := GM 9 Pro
+PRODUCT_MANUFACTURER := General Mobile
 
 # add support for future ota updates
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
@@ -81,13 +81,13 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.allow.mock.location=0
     
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="jasmine_sprout" \
-    PRODUCT_NAME="jasmine"
+    TARGET_DEVICE="GM9PRO_sprout" \
+    PRODUCT_NAME="GM9PRO"
 	
-TARGET_VENDOR_PRODUCT_NAME := jasmine
+TARGET_VENDOR_PRODUCT_NAME := GM9PRO
 
-BUILD_FINGERPRINT := "xiaomi/jasmine/jasmine_sprout:10/QKQ1.190910.002/V11.0.5.0.QDIMIXM:user/release-keys"
+BUILD_FINGERPRINT := "GM/GM9PRO/GM9PRO_sprout:9/PKQ1.180904.001/254:user/release-keys"
 
 # Maintainer Prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="Manish4586"
+DEVICE_MAINTAINERS="entaromia"
